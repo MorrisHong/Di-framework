@@ -23,7 +23,7 @@ public class DiService {
 
     private static <T> T createInstance(Class<T> classType) {
         try {
-            System.out.println(classType + "타입의 인스턴스를 생성합니다 : **v2 branch**");
+            System.out.println(classType + "타입의 인스턴스를 생성합니다 : **v2 branch2222222222222**");
             return classType.getConstructor().newInstance();
         } catch (InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException e) {
             e.printStackTrace();
